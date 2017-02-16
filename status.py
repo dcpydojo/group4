@@ -9,6 +9,5 @@ def get_status():
     response = jsonify(requests.get(url).json())
     return response
 
-
 if __name__ == "__main__":
     app.run()
