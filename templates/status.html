@@ -1,0 +1,16 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}This is an example page{% endblock %}
+
+{% block navbar %}
+<div class="navbar navbar-fixed-top">
+  <!-- ... -->
+</div>
+{% endblock %}
+
+{% block content %}
+  <h1>OPM Status</h1>
+  <strong>Status:</strong> {{ status_summary }}<br/>
+  <strong>Date:</strong> {{ date_of_status }}<br/>
+  <strong>Status:</strong> {{ long_status_message }}<br/>
+  
+{% endblock %}
